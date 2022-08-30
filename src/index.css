@@ -5,9 +5,210 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.main-icon{
+  margin-top:-6px !important;
+  margin-right:10px !important;
+  height:40px !important;
+}
+.navbar{
+  background-color: rgb(1, 1, 51) !important;
+  padding: 5px 10px !important;
+}
+
+.nav-link{
+  color: #e63d3f !important;
+  border: 1px solid #f8f8f8 !important;
+  border-radius: 5px !important;
+  background-color:#f8f8f8 !important ;
+  height: 44px !important;
+  margin-right: 10px !important;
+}
+.navbar-brand{
+  color: #f8f8f8 !important;
+  font-size: 30px !important;
+}
+
+h1{
+  font-size: 16px !important;
+  text-align: left !important;
+  color: black !important;
+}
+
+.img-fluid{
+  height: 200px !important;
+  text-align: center !important;
+}
+
+.bigimg{
+  height: 400px !important;
+  object-fit: contain;
+}
+p{
+  text-align: left !important;
+}
+
+h2{
+  font-size: 25px !important;
+  font-weight: bold !important;
+}
+.btn{
+  background-color: black !important;
+  color: white !important;
+  text-align: center !important;
+  border: 2px solid white !important;
+}
+
+input{
+  box-shadow: none !important;
+  margin-top: 10px !important;
+  border: 1px solid black !important;
+}
+h3{
+  font-size: 16px !important;
+}
+.orderitem h1{
+  font-size:16px !important
+}
+
+.admin{
+  margin-top: 10px;
+  background-color: rgb(0, 6, 61) !important;
+  border-radius: 20px 70px !important;
+  display: flex !important;
+  justify-content: space-around !important;
+}
+.admin li{
+  padding: 5px !important;
+  color:white !important;
+  list-style-type: none !important;
+  display: inline !important;
+  margin-left: 20px !important;
+  
+}
+
+.admin li a{
+  color:white !important;
+  text-decoration: none !important;
+  font-size: 20px !important;
+}
+a{
+  text-decoration: none !important;
+}
+
+.dropdown-toggle{
+  background-color: rgb(1, 1, 51) !important;
+  border:none !important;
+  box-shadow: none !important;
+}
+
+select{
+  box-shadow: none !important;
+  border: 1px solid black !important;
+}
+th , td{
+  text-align:  left !important;
+}
+.navbar-nav{
+  margin-left: auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100% !important;
+}
+.profile-btn{
+  height:30px !important;
+  width:50px !important;
+  margin-left: -10px !important;
+}
+Button{
+  padding-top: 5px !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+}
+
+a{
+  color: #111111 ;
+}
+.log-body a{
+  color: white !important;
+  padding-top: 10px !important;
+}
+.profile-out{
+  margin-right: 10px !important;
+}
+.active {
+  border: 3px solid cyan;
+  padding: 5px;
+  border-radius: 10px; 
+}
+.margin-10{
+  margin-top: 10px !important;
+}
+
+.active a {
+  color: cyan;
+  font-weight: bold !important;
+  
+}
+.loader{
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 150px !important;
+  height: 100vh !important;
+}
+.margin-less-10{
+  margin-top: -8px !important;
+}
+.filter-nav{
+  height:45px !important;
+  margin-left: 20px !important;
+  margin-right: 70px !important;
+}
+.marginright{
+  margin-right: 80px !important;
+}
+.heading{
+  font-size: 30px !important;
+}
+.heading1{
+  font-size: 20px !important;
+}
+.des-icon{
+  display: flex;
+justify-content: space-between;
+}
+.des-body{
+  border: 1px solid #D2D2D2;
+}
+
+.des-fullbody{
+  border: 1px solid #D2D2D2;
+  margin-left: 10px !important;
+}
+.des-review{
+  border: 1px solid #D2D2D2;
+  margin-left: 10px !important;
+  margin-right: -20px !important;
+}
+.des-des{
+  border: 1px solid #D2D2D2;
+  margin-right: 10px !important;
+}
+.update-bg{
+  background-image: url("./asserts/test-1.svg") !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height:100vh;
+  width:100%;
+}
+.order-list:hover{
+cursor:pointer !important;
 }

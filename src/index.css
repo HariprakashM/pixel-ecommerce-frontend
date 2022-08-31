@@ -21,7 +21,10 @@ code {
   background-color: rgb(1, 1, 51) !important;
   padding: 5px 10px !important;
 }
-
+.cont{
+  padding: 10px !important;
+  border: 1px dashed white;
+}
 .nav-link{
   color: #e63d3f !important;
   border: 1px solid #f8f8f8 !important;

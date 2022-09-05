@@ -28,6 +28,7 @@ export default function Productdescscreen({ match }) {
 
   useEffect(() => {
     dispatch(getProductById(params.id));
+    window.scrollTo(0,0)
   }, []);
 
   return (

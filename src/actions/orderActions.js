@@ -6,7 +6,7 @@ export const placeOrder =(token , subtotal) =>(dispatch , getState)=>{
      const demoItems = getState().cartReducer.cartItems
 
      const cartItems = new Array();
-
+     //for every looping we are removing count in stock
      for(var i=0 ; i<demoItems.length ; i++) {
 
           var item ={
